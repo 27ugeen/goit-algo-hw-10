@@ -1,37 +1,4 @@
 import numpy as np
-# from scipy.integrate import quad
-
-# # Define the function
-# def f(x):
-#     return x ** 2
-
-# # Define the boundaries of integration
-# a = 0 # Lower bound
-# b = 2 # Upper bound
-
-# # Analytical calculation of the integral
-# integral_analytical, _ = quad(f, a, b)
-# print("Analytical value of the integral:", integral_analytical)
-
-# # Estimate the integral using Monte Carlo method
-# n = 10000
-# x_random = np.random.uniform(a, b, n)
-# y_random = np.random.uniform(0, f(b), n)
-# points_under_curve = sum(y_random <= f(x_random))
-# rectangle_area = (b - a) * f(b)
-# integral_monte_carlo = rectangle_area * (points_under_curve / n)
-# print("Estimated value of the integral using Monte Carlo method:", integral_monte_carlo)
-
-# # Compare the results
-# error = abs(integral_analytical - integral_monte_carlo)
-# print("Absolute error between analytical and Monte Carlo results:", error)
-
-# # Conclusion
-# if error < 0.01:  # Adjust threshold as needed
-#     print("The Monte Carlo method provides an accurate estimation of the integral.")
-# else:
-#     print("The Monte Carlo method may need more samples to achieve accurate estimation.")
-
 from scipy.integrate import quad
 
 # Define the function
